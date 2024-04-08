@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+
+/* starting here to navber css  */
+
+
+body{
+        background: url("../img/hero-bg.jpg") top center;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+@media (max-width: 991px){
+    .sidebar{
+        background-color: rgb(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+#hussain{
+    align-items: center;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+#hussaina{
+    text-decoration: none;
+    font-size: large;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.1em;
+}
+
+#line{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:sandybrown;
+}
+
+#hussaina a:hover {
+    color: rgb(0, 255, 98);
+    background-color: black ;
+}
+
+#line1{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aquamarine;
+    opacity: 2;
+}
+
+#hussains{
+    /* background-color: #f94ca4  ; */
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: aqua;
+    /* text-transform: uppercase;    */
+    border: 4.5px solid black;
+    /* letter-spacing: 0.1x;     */
+    
+}
+
+@media only screen and (max-width :772px) {
+    h1 {
+        font-size: 1.2em;
+        /* align-items: center; */
+        max-width: 596px;
+        text-align: center;
+        justify-content: center;
+    }  
+}
+
+@media only screen and ( max-width: 341px){
+    h1 {
+        font-size: 1.2em;
+        /* align-items: center; */
+        max-width:596px;
+        text-align: center;
+        justify-content: center;
+    }   
+}
+
+@media only screen and (max-width:352px) {
+    h1 {
+        font-size: 1.2em;
+        align-items: center;
+        max-width:596px;
+        text-align: center;
+        justify-content: center;
+    }  
+}
